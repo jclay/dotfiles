@@ -7,6 +7,7 @@ I keep my MacOS based dotfile configurations here.
 git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles 
 sh brew.sh
 sh .macos
+sh brew_cask.sh
 ```
 
 ## Thanks To…

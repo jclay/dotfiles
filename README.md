@@ -10,5 +10,5 @@ sh .macos
 sh brew_cask.sh
 ```
 
-## Thanks To…
+## Thanks To
 * [Mathia Bynens Dotfiles](https://github.com/mathiasbynens/dotfiles)

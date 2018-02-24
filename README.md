@@ -1,5 +1,5 @@
 # dotfiles
-I keep my MacOS based dotfile configurations here.
+I keep my *nix based dotfile configurations here.
 
 ## Installation
 

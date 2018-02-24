@@ -5,9 +5,8 @@ I keep my *nix based dotfile configurations here.
 
 ```bash
 git clone https://github.com/jclay/dotfiles.git && cd dotfiles 
-sh brew.sh
-sh .macos
-sh brew_cask.sh
+ln -s .config/ ~/.config/
+ln -s .zshrc ~/.zshrc
 ```
 
 ## Insipired By

@@ -58,14 +58,22 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=( git zsh-dircolors-solarized)
+plugins=(git zsh-dircolors-solarized)
 
 # colored completion - use my LS_COLORS
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
 source $ZSH/oh-my-zsh.sh
 
+export DISPLAY=:0
+export TERM=xterm-256color
 
+export WIN_HOME=/mnt/c/Users/joel
+export DISPLAY=:0
+  
+# added by Miniconda3 installer
+export PATH="/home/joel/miniconda3/bin:$PATH"
+  #
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
